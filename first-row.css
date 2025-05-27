@@ -1,0 +1,84 @@
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px 100px 20px 100px;
+}
+
+.person1{
+    width: 50%;
+}
+
+
+.information1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.avatar1{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    object-fit: cover;
+
+}
+
+.introduction1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto 10px 20px;
+}
+
+.testimonial1{
+    border: solid 0px black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px 10px 20px;
+    font-size: 0.9em;   
+}
+
+.testimonial1::after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    margin: 0 10px auto;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgb(0, 0, 0);
+    position: relative;
+    top: 20px;
+}
+
+.person2{
+    width: 50%;
+}
+
+.testimonial2{
+    border: solid 1.6px black;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 20px 20px 10px 20px;
+    font-size: 0.9em;   
+}
+
+
+.avatar2{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 20% 80%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+}

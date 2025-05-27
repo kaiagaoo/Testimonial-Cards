@@ -1,0 +1,43 @@
+.third-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px 100px 20px 100px;
+}
+
+.person4{
+    width: 100%;
+    flex: 1;
+    margin-left: 0px;
+    border: solid 1.6px black;
+    border-radius: 20px;
+    color: white;
+    padding: 20px 60px 20px 60px;
+}
+
+.avatar4 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+}
+
+.pic1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px;
+    object-fit: cover;  
+}
+
+.pic2{
+    width: 50px;
+    height: 50px;
+    opacity: 0.6;
+    border-radius: 50%;
+    margin: 0px;
+    object-fit: cover;  
+}
